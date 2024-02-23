@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    margin: 0% auto;
+}
+/*Standard*/
+#main{
+    width: 350px;
+    height: 599px;
+
+    padding: 25px;
+    margin-bottom: 10%;
+
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+#image-principal{
+    display: block;
+    margin-inline: auto;  
+    width: 100%; 
+    border-radius: 6px;
+    background: hsl(178, 100%, 50%) url(./images/icon-view.svg) no-repeat center;
+}
+#theme_click a{
+    text-decoration: none;
+    color: white;
+}
+/* Image size */
+#theme_click img{
+    display: block;
+    margin-inline: auto;  
+    width: 100%; 
+    border-radius: 5px;
+
+    transition: background .2s;
+
+}
+#theme_click img:hover{
+    opacity: 0.2;
+    
+}
+
+/*Theme h1*/
+#theme_click h1{
+    padding-top: 27px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 18px; 
+
+    transition: .2s;
+}
+#theme_click a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+/* Theme Paragraph*/
+
+#theme p{
+    padding-top: 24px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 18px; 
+    opacity: 0.7;
+
+    margin-bottom: 27px;
+}
+
+/* ETH and Time*/
+
+#next-line{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 27px;
+
+    
+}
+#next-line ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+
+}
+#ethereum{
+    position: relative;
+    width: 93px;
+    height: 18px;
+}
+#ethereum{
+    padding: 0px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 14px; 
+    margin-right: 60px;
+    color: hsl(178, 100%, 50%);
+}
+#ethereum img{
+    max-width: 11px;
+    height: auto;
+
+    position: absolute;
+    bottom: 7.4%;
+    left: 0;
+    z-index: 1;
+}
+#time{
+    position: relative;
+    width: 90px;
+    height: 18px;
+}
+#time{
+    padding: 0px;
+    padding-left: 10px;
+    margin-left: 60px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 14px;  
+    color: rgba(255, 255, 255, 0.6);
+}
+#time img{
+    max-width: 14px;
+    height: auto;
+
+    position: absolute;
+    bottom: 7.4%;
+    left: 0;
+    z-index: 1;
+}
+
+/*hr line color*/
+
+hr{
+    max-width: 309px;
+    border: 1px solid hsl(215, 32%, 27%);
+    /*border-color: hsl(215, 32%, 27%);*/
+}
+
+
+/*Author*/
+
+#author{
+    margin-top: 16px;
+    width: 236px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 2px 0px;
+}
+
+#image-author{
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    border-radius: 50%;
+}
+#image-author img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    padding: 1px;
+    
+}
+
+#text{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 14px;  
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+#text a{
+    color: white;
+    text-decoration: none;
+
+    transition: .2s;
+}
+#text a:hover{
+    color: hsl(178, 100%, 50%);
+}
